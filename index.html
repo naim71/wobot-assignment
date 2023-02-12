@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Google Font End -->
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment-Frontend</title>
+</head>
+
+<body>
+    <header class="logo">
+        <img src="./images/wobot_logo_blue.svg" alt="">
+    </header>
+    <section class="container">
+        <img src="./images/wobot-2.png" alt="logo">
+        <div class="text-container">
+            <h1>It's delight to have you onbaord</h1>
+            <p>Help us know you better.</p>
+            <p>(This is how we optimize Wobot as per your business needs)</p>
+        </div>
+        <form>
+            <div class="label-box">
+                <label for="fname">Your Name</label>
+                <input type="text" id="fname" name="fname" placeholder="e.g. John Smith">
+            </div>
+            <div class="label-box">
+                <label for="cname">Company Name</label>
+                <input type="text" id="cname" name="cname" placeholder="e.g. Alpha Inc.">
+            </div>
+            <div class="label-box">
+                <label for="select">Industry</label>
+                <select name="select" id="select">
+                    <option value="0">Select</option>
+                    <option value="1">Agriculture</option>
+                    <option value="2">Construction</option>
+                    <option value="3">Education</option>
+                    <option value="4">Financial services</option>
+                    <option value="5">Food</option>
+                </select>
+            </div>
+            <div class="label-box">
+                <label for="locations">Number of locations</label>
+                <div id="location-span">
+                    <button class="btn">1-20</button>
+                    <button class="btn">21-50</button>
+                    <button class="btn">51-200</button>
+                    <button class="btn">201-500</button>
+                    <button class="btn">500+</button>
+                </div>
+            </div>
+
+            <button>Get Started</button>
+        </form>
+    </section>
+    <div id="footer">
+        <a href="#">Terms of Use</a>
+        <p>|</p>
+        <a href="#">Privacy Policy</a>
+    </div>
+</body>
+</html>

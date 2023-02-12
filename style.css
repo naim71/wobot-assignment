@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: #F5F5F5;
+    margin: 40px 65px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 15px;
+    background-image: url('./images/Sprinkle.svg');
+}
+
+.logo {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    width: 350px;
+    padding: 30px 50px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(113, 113, 113, 0.2);
+}
+
+.container img {
+    width: 36px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.container>form>button {
+    background-color: #3766E8;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.container>form>button:hover {
+    background-color: #1047de;
+}
+
+.text-container {
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    color: #646464;
+}
+
+.text-container :nth-child(2) {
+    font-weight: 500;
+}
+
+.text-container :nth-child(3) {
+    padding: 0 50px;
+    margin-bottom: 20px;
+}
+
+.text-container h1 {
+    font-weight: 500;
+    color: #2F2F2F;
+    padding: 0 50px;
+    font-size: 25px;
+}
+
+.label-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-box label {
+    margin-bottom: 10px;
+    color: #646464;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.label-box input,
+select {
+
+    height: 35px;
+    border-radius: 5px;
+    padding-inline-start: 10px;
+    border: 1px solid #c5c5c5;
+}
+
+#location-span {
+    display: flex;
+    justify-content: space-around;
+}
+
+#location-span button {
+    background-color: #F0F0F0;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+#location-span>button:hover {
+    background-color: #3766E8;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+#footer {
+    display: inline-flex;
+    color: #646464;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #646464;
+    margin: 0 10px;
+
+}
